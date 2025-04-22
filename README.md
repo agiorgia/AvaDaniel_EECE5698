@@ -3,8 +3,14 @@ Repository for EECE5698 Final Project, Ava Giorgianni and Daniel Klevak
 
 
 Classical Method file structure breakdown:
-The classical method is contained in the matlab file FinalProject_IPP.m. This loops through all images in the DevImages folder for processing. 
-Results from the classical method are stored in the Outputs folder. This folder contains subplots of each step in the image processing pipeline for each image as well as an excel sheet containing a sheet for each image. Each sheet contains the major and minor axial measurements of each identified cell in the image.  
+The classical method code is contained in the matlab file FinalProject_IPP.m. This loops through all images in the DevImages folder for processing. 
+
+Results from the classical method are stored in the Outputs folder. This folder contains subplots of each step in the image processing pipeline for each image as well as two excel files. 
+
+CellStats.xlsx contains a sheet for each image, and each sheet has the major and minor axis measurments for all identified cells in the image.
+
+CellCount.xlsx reports the number of cells identified in each image. 
+
 
 
 ML Method file structure breakdown:
