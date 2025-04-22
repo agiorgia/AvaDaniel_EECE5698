@@ -25,3 +25,4 @@ dataset.yaml breaksdown the parameters for the yolo model, defining paths for th
 
 
 Ground Truth file structure breakdown:
+FinalProject_MaskProcess.m counts all cells in the image masks stored in the ImageMasks folder. 
