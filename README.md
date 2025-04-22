@@ -5,11 +5,7 @@ Repository for EECE5698 Final Project, Ava Giorgianni and Daniel Klevak
 Classical Method file structure breakdown:
 The classical method code is contained in the matlab file FinalProject_IPP.m. This loops through all images in the DevImages folder for processing. 
 
-Results from the classical method are stored in the Outputs folder. This folder contains subplots of each step in the image processing pipeline for each image as well as two excel files. 
-
-CellStats.xlsx contains a sheet for each image, and each sheet has the major and minor axis measurments for all identified cells in the image.
-
-CellCount.xlsx reports the number of cells identified in each image. 
+Results from the classical method are stored in the Outputs folder. This folder contains subplots of each step in the image processing pipeline for each image as well as two excel files. CellStats.xlsx contains a sheet for each image, and each sheet has the major and minor axis measurments for all identified cells in the image. CellCount.xlsx reports the number of cells identified in each image. 
 
 
 
@@ -25,6 +21,7 @@ The yolo_dataset folder contains an images folder with sub folders train and val
 cell_measurements.csv contains the measurements of all cells detected across the entire validation set. 
 
 dataset.yaml breaksdown the parameters for the yolo model, defining paths for the train and val split as well as defining the singular class we have which is cell. 
+
 
 
 Ground Truth file structure breakdown:
