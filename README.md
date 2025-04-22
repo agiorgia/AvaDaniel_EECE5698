@@ -1,7 +1,6 @@
 # AvaDaniel_EECE5698
 Repository for EECE5698 Final Project, Ava Giorgianni and Daniel Klevak
-
-
+Classical Method file structure breakdown:
 
 
 ML Method file structure breakdown:
@@ -18,3 +17,4 @@ cell_measurements.csv contains the measurements of all cells detected across the
 dataset.yaml breaksdown the parameters for the yolo model, defining paths for the train and val split as well as defining the singular class we have which is cell. 
 
 
+Ground Truth file structure breakdown:
